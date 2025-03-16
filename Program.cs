@@ -421,15 +421,15 @@ namespace CsharpProjects
             //do
             //{
             //    Console.Clear();
-            //   Console.WriteLine("Choose The Shapes : \n1. Circle \n2. Square \n3. Triangle  \n4. Exit");
-            //   int Shapes = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("Choose The Shapes : \n1. Circle \n2. Square \n3. Triangle  \n4. Exit");
+            //    int Shapes = int.Parse(Console.ReadLine());
 
             //    switch (Shapes)
             //    {
             //        case 1:
             //            Console.WriteLine("Circle");
             //            double r, Area, Circumference;
-            //            Console.WriteLine("Enter The Radius");
+            //            Console.WriteLine("Enter The Radius(r)");
             //            r = double.Parse(Console.ReadLine());
             //            Area = 3.14 * r * r;
             //            Circumference = 2 * 3.14 * r;
@@ -448,15 +448,13 @@ namespace CsharpProjects
             //            break;
             //        case 3:
             //            Console.WriteLine("Triangle");
-            //            double b, h, Area2, Perimeter1;
+            //            double b, h, Area2;
             //            Console.WriteLine("Enter The Base");
             //            b = double.Parse(Console.ReadLine());
             //            Console.WriteLine("Enter The Height");
             //            h = double.Parse(Console.ReadLine());
             //            Area2 = 0.5 * b * h;
-            //            Perimeter1 = b + h + Math.Sqrt(b * b + h * h);
             //            Console.WriteLine("The Area of Triangle is " + Area2);
-            //            Console.WriteLine("The Perimeter of Triangle is " + Perimeter1);
             //            break;
             //        case 4:
             //            Console.WriteLine("Exit");
@@ -466,9 +464,9 @@ namespace CsharpProjects
             //            break;
             //    }
 
-            // Console.WriteLine("Do you want to continue? Y/N");
-            // choice = char.Parse(Console.ReadLine());
-            //} while (choice == 'y' || choice == 'Y') ;
+            //    Console.WriteLine("Do you want to continue? Y/N");
+            //    choice = char.Parse(Console.ReadLine());
+            //} while (choice == 'y' || choice == 'Y');
 
             //Console.WriteLine("\nThank You Good Bye.");
 
@@ -601,18 +599,18 @@ namespace CsharpProjects
             //        ****
             //        *****
 
-            //int N;
-            //Console.WriteLine("Enter The N");
-            //N = int.Parse(Console.ReadLine());
-            //Console.WriteLine("The Pattern is ");
-            //for (int i = 1; i <= N; i++)
-            //{
-            //    for (int j = 1; j <= i; j++)
-            //    {
-            //        Console.Write("*");
-            //    }
-            //    Console.WriteLine();
-            //}
+            int N;
+            Console.WriteLine("Enter The N");
+            N = int.Parse(Console.ReadLine());
+            Console.WriteLine("The Pattern is ");
+            for (int i = 1; i <= N; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
 
 
 
@@ -684,30 +682,30 @@ namespace CsharpProjects
             //Console.WriteLine("The Pattern is ");
             //if (N % 2 == 0)
             //{
-            //    for (int i = 1; i <= N; i++)
+            //for (int i = 1; i <= N; i++)
+            //{
+            //    for (int j = 1; j <= N - i; j++)
             //    {
-            //        for (int j = 1; j <= N - i; j++)
-            //        {
-            //            Console.Write(" ");
-            //        }
-            //        for (int k = 1; k <= 2 * i - 1; k++)
-            //        {
-            //            Console.Write("*");
-            //        }
-            //        Console.WriteLine();
+            //        Console.Write(" ");
             //    }
-            //    for (int i = N - 1; i >= 1; i--)
+            //    for (int k = 1; k <= 2 * i - 1; k++)
             //    {
-            //        for (int j = 1; j <= N - i; j++)
-            //        {
-            //            Console.Write(" ");
-            //        }
-            //        for (int k = 1; k <= 2 * i - 1; k++)
-            //        {
-            //            Console.Write("*");
-            //        }
-            //        Console.WriteLine();
+            //        Console.Write("*");
             //    }
+            //    Console.WriteLine();
+            //}
+            //for (int i = N - 1; i >= 1; i--)
+            //{
+            //    for (int j = 1; j <= N - i; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (int k = 1; k <= 2 * i - 1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
             //}
             //else
             //{
@@ -778,6 +776,6 @@ namespace CsharpProjects
             //Console.WriteLine("--------------------------------------------------------------");
 
 
-        }
+        }  
     }
 }
