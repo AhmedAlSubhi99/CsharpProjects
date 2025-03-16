@@ -557,6 +557,7 @@ namespace CsharpProjects
             //    }
             //    Console.WriteLine();
             //}
+            
             // 10. Factorial of a Number
             //Write a program that takes a number as input and prints its factorial.
 
@@ -590,9 +591,7 @@ namespace CsharpProjects
             //while (n >= 0);
 
 
-
             //Console.WriteLine("--------------------------------------------------------------");
-
 
             //8.Print a Pyramid Pattern(For Loop)
             //• Ask the user for N and print a pyramid
@@ -636,6 +635,7 @@ namespace CsharpProjects
             //        Console.WriteLine();
             //    }
 
+
             //int i, n, x;
 
             //Console.WriteLine("Enter The i");
@@ -648,6 +648,7 @@ namespace CsharpProjects
             //    x = i * n; 
             //    Console.WriteLine("{0} * {1} = {2} ", i, n, x);
             //    n++;
+
             //}
 
 
@@ -737,6 +738,7 @@ namespace CsharpProjects
 
             //int num, guess, count = 0;
 
+            //Random random = new Random();
             //num = random.Next(1, 100);
 
             //do
