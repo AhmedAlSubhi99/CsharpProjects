@@ -279,7 +279,6 @@ namespace CsharpProjects
 
             //Console.WriteLine("--------------------------------------------------------------");
 
-<<<<<<< HEAD
 
             //2.Basic ATM System 
             //• Use a starting balance of $1000.
@@ -558,7 +557,6 @@ namespace CsharpProjects
             //    }
             //    Console.WriteLine();
             //}
-=======
             // 10. Factorial of a Number
             //Write a program that takes a number as input and prints its factorial.
 
@@ -590,12 +588,12 @@ namespace CsharpProjects
             //    n--;
             //} 
             //while (n >= 0);
->>>>>>> e00d54e2c5f8181407e6d4d241e4fd4679c1069d
+
 
 
             //Console.WriteLine("--------------------------------------------------------------");
 
-<<<<<<< HEAD
+
             //8.Print a Pyramid Pattern(For Loop)
             //• Ask the user for N and print a pyramid
             // Example: (for N = 4)
@@ -637,7 +635,6 @@ namespace CsharpProjects
             //        }
             //        Console.WriteLine();
             //    }
-=======
 
             //int i, n, x;
 
@@ -651,7 +648,6 @@ namespace CsharpProjects
             //    x = i * n; 
             //    Console.WriteLine("{0} * {1} = {2} ", i, n, x);
             //    n++;
->>>>>>> e00d54e2c5f8181407e6d4d241e4fd4679c1069d
             //}
 
 
@@ -659,7 +655,6 @@ namespace CsharpProjects
 
 
 
-<<<<<<< HEAD
             //9.Print a Diamond Pattern(For Loop)
             //• Ask the user for N and print a diamond pattern 
             //Example: (for N = 3)
@@ -742,7 +737,6 @@ namespace CsharpProjects
 
             //int num, guess, count = 0;
 
-            //Random random = new Random();
             //num = random.Next(1, 100);
 
             //do
@@ -768,11 +762,6 @@ namespace CsharpProjects
 
 
             //Console.WriteLine("--------------------------------------------------------------");
-=======
-
-
->>>>>>> e00d54e2c5f8181407e6d4d241e4fd4679c1069d
-
 
 
 
