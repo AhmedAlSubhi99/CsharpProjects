@@ -19,6 +19,7 @@ namespace CsharpProjects
     {
         static void Main(string[] args)
         {
+
             //1.Even or Odd
             //Ask the user to enter a number and check whether it is even or odd using an if-else statement.
 
@@ -236,9 +237,64 @@ namespace CsharpProjects
             //{ 
             //    Console.WriteLine("result = no have operator " );
 
-            //}//Console.WriteLine("--------------------------------------------------------------");
+            //}
 
-            //Simple Calculator(Switch-Case) 
+            //Console.WriteLine("--------------------------------------------------------------");
+
+
+            // 10. Factorial of a Number
+            //Write a program that takes a number as input and prints its factorial.
+
+            //int num, fact;
+
+            //Console.WriteLine("Enter The Num");
+            //num = int.Parse(Console.ReadLine());
+            //fact = 1;
+
+            //for (int i = 1; i <= num; i++)
+            //{
+            //    fact = fact * i;
+            //    Console.WriteLine(fact);
+            //}
+
+            //Console.WriteLine("--------------------------------------------------------------");
+
+            //int i, n, x;
+
+            //Console.WriteLine("Enter The i");
+            //i = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter The n");
+            //n = int.Parse(Console.ReadLine());
+
+            //do
+            //{
+            //    x = i * n;
+            //    Console.WriteLine("{0} * {1} = {2} ", i, n, x);
+            //    n--;
+            //} 
+            //while (n >= 0);
+
+            //Console.WriteLine("--------------------------------------------------------------");
+
+            //int i, n, x;
+
+            //Console.WriteLine("Enter The i");
+            //i = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter The n");
+            //n = int.Parse(Console.ReadLine());
+
+            //while (n <= 100)
+            //{
+            //    x = i * n; 
+            //    Console.WriteLine("{0} * {1} = {2} ", i, n, x);
+            //    n++;
+
+            //}
+
+
+            //Console.WriteLine("--------------------------------------------------------------");
+
+            //1. Simple Calculator(Switch-Case) 
             //C# Part2 Exercises 
             //  Ask the user for two numbers and an operator (+, -, *, /).
             // Use switch-case to perform the selected operation.
@@ -557,38 +613,7 @@ namespace CsharpProjects
             //    }
             //    Console.WriteLine();
             //}
-            
-            // 10. Factorial of a Number
-            //Write a program that takes a number as input and prints its factorial.
 
-            //int num, fact;
-
-            //Console.WriteLine("Enter The Num");
-            //num = int.Parse(Console.ReadLine());
-            //fact = 1;
-
-            //for (int i = 1; i <= num; i++)
-            //{
-            //    fact = fact * i;
-            //    Console.WriteLine(fact);
-            //}
-
-            //Console.WriteLine("--------------------------------------------------------------");
-
-            //int i, n, x;
-
-            //Console.WriteLine("Enter The i");
-            //i = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Enter The n");
-            //n = int.Parse(Console.ReadLine());
-
-            //do
-            //{
-            //    x = i * n;
-            //    Console.WriteLine("{0} * {1} = {2} ", i, n, x);
-            //    n--;
-            //} 
-            //while (n >= 0);
 
 
             //Console.WriteLine("--------------------------------------------------------------");
@@ -636,20 +661,7 @@ namespace CsharpProjects
             //    }
 
 
-            //int i, n, x;
 
-            //Console.WriteLine("Enter The i");
-            //i = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Enter The n");
-            //n = int.Parse(Console.ReadLine());
-
-            //while (n <= 100)
-            //{
-            //    x = i * n; 
-            //    Console.WriteLine("{0} * {1} = {2} ", i, n, x);
-            //    n++;
-
-            //}
 
 
             //Console.WriteLine("--------------------------------------------------------------");
@@ -764,7 +776,6 @@ namespace CsharpProjects
 
 
             //Console.WriteLine("--------------------------------------------------------------");
-
 
 
         }
