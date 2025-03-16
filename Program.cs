@@ -279,6 +279,7 @@ namespace CsharpProjects
 
             //Console.WriteLine("--------------------------------------------------------------");
 
+<<<<<<< HEAD
 
             //2.Basic ATM System 
             //• Use a starting balance of $1000.
@@ -557,10 +558,44 @@ namespace CsharpProjects
             //    }
             //    Console.WriteLine();
             //}
+=======
+            // 10. Factorial of a Number
+            //Write a program that takes a number as input and prints its factorial.
+
+            //int num, fact;
+
+            //Console.WriteLine("Enter The Num");
+            //num = int.Parse(Console.ReadLine());
+            //fact = 1;
+
+            //for (int i = 1; i <= num; i++)
+            //{
+            //    fact = fact * i;
+            //    Console.WriteLine(fact);
+            //}
+
+            //Console.WriteLine("--------------------------------------------------------------");
+
+            //int i, n, x;
+
+            //Console.WriteLine("Enter The i");
+            //i = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter The n");
+            //n = int.Parse(Console.ReadLine());
+
+            //do
+            //{
+            //    x = i * n;
+            //    Console.WriteLine("{0} * {1} = {2} ", i, n, x);
+            //    n--;
+            //} 
+            //while (n >= 0);
+>>>>>>> e00d54e2c5f8181407e6d4d241e4fd4679c1069d
 
 
             //Console.WriteLine("--------------------------------------------------------------");
 
+<<<<<<< HEAD
             //8.Print a Pyramid Pattern(For Loop)
             //• Ask the user for N and print a pyramid
             // Example: (for N = 4)
@@ -602,6 +637,21 @@ namespace CsharpProjects
             //        }
             //        Console.WriteLine();
             //    }
+=======
+
+            //int i, n, x;
+
+            //Console.WriteLine("Enter The i");
+            //i = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter The n");
+            //n = int.Parse(Console.ReadLine());
+
+            //while (n <= 100)
+            //{
+            //    x = i * n; 
+            //    Console.WriteLine("{0} * {1} = {2} ", i, n, x);
+            //    n++;
+>>>>>>> e00d54e2c5f8181407e6d4d241e4fd4679c1069d
             //}
 
 
@@ -609,6 +659,7 @@ namespace CsharpProjects
 
 
 
+<<<<<<< HEAD
             //9.Print a Diamond Pattern(For Loop)
             //• Ask the user for N and print a diamond pattern 
             //Example: (for N = 3)
@@ -717,6 +768,10 @@ namespace CsharpProjects
 
 
             //Console.WriteLine("--------------------------------------------------------------");
+=======
+
+
+>>>>>>> e00d54e2c5f8181407e6d4d241e4fd4679c1069d
 
 
 
