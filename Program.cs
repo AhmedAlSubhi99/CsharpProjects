@@ -645,17 +645,17 @@ namespace CsharpProjects
             //}
             //else
             //{
-            //    for (int i = 1; i <= N; i++)
+            //    for (int i = 1; i <= N; i++) // For Draw Rows
             //    {
-            //        for (int j = 1; j <= N - i; j++)
+            //        for (int j = 1; j <= N - i; j++) // j <= N - i ---> For spaces 
             //        {
             //            Console.Write(" ");
             //        }
-            //        for (int k = 1; k <= 2 * i - 1; k++)
+            //        for (int k = 1; k <= 2 * i - 1; k++) // k <= 2 * i - 1 ---> For printer '*'
             //        {
-            //            Console.Write("*");
+            //            Console.Write("*"); // For print '*' in single line 
             //        }
-            //        Console.WriteLine();
+            //        Console.WriteLine(); // For move to next line
             //    }
 
 
@@ -677,7 +677,7 @@ namespace CsharpProjects
 
 
             //int N;
-            //Console.WriteLine("Enter The N");
+            //Console.WriteLine("Enter The N (rows)");
             //N = int.Parse(Console.ReadLine());
             //Console.WriteLine("The Pattern is ");
             //if (N % 2 == 0)
@@ -735,6 +735,27 @@ namespace CsharpProjects
             //    }
             //}
 
+            // OR (Another Solve)
+
+            //int N;
+            //Console.WriteLine("Enter The N (rows)");
+            //N = int.Parse(Console.ReadLine());
+            //Console.WriteLine("The Pattern is ");
+            //if (N % 2 == 0)
+            //{
+            //    for (int i = 0; i < n; i++)
+            //    {
+
+            //        Console.Write(' ', n - i - 1));// Print spaces
+
+            //    Console.WriteLine('*', 2 * i + 1)); // Print stars
+
+
+            //    for (int i = 0; i >= n - 2; i++) // Lower half of the diamond
+            //    {
+            //        Console.Write(' ', n - i - 1));// Print spaces
+            //    Console.WriteLine('*', 2 * i + 1));// Print stars
+            //}
 
             //Console.WriteLine("--------------------------------------------------------------");
 
@@ -776,6 +797,8 @@ namespace CsharpProjects
             //Console.WriteLine("--------------------------------------------------------------");
 
 
-        }  
+
+
+        }
     }
 }
