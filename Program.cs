@@ -665,7 +665,6 @@ namespace CsharpProjects
             //Console.WriteLine("--------------------------------------------------------------");
 
 
-
             //9.Print a Diamond Pattern(For Loop)
             //• Ask the user for N and print a diamond pattern 
             //Example: (for N = 3)
@@ -741,20 +740,26 @@ namespace CsharpProjects
             //Console.WriteLine("Enter The N (rows)");
             //N = int.Parse(Console.ReadLine());
             //Console.WriteLine("The Pattern is ");
-            //if (N % 2 == 0)
+            //int Rows = 2 * N - 1;
+
+            //// Loop through all rows of the diamond
+            //for (int i = 0; i < Rows; i++)
             //{
-            //    for (int i = 0; i < n; i++)
+            //    int sp = Math.Abs(N - i - 1);
+            //    int st = Rows - (2 * sp);
+
+            //    for (int j = 0; j < sp; j++)
             //    {
+            //        Console.Write(" ");
+            //    }
 
-            //        Console.Write(' ', n - i - 1));// Print spaces
-
-            //    Console.WriteLine('*', 2 * i + 1)); // Print stars
-
-
-            //    for (int i = 0; i >= n - 2; i++) // Lower half of the diamond
+                
+            //    for (int j = 0; j < st; j++)
             //    {
-            //        Console.Write(' ', n - i - 1));// Print spaces
-            //    Console.WriteLine('*', 2 * i + 1));// Print stars
+            //        Console.Write("*");
+            //    }
+
+            //    Console.WriteLine();
             //}
 
             //Console.WriteLine("--------------------------------------------------------------");
